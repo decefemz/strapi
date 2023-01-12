@@ -49,7 +49,7 @@
         "images"
       ]
     },
-    "Name": {
+    "name": {
       "type": "string"
     }
   }
