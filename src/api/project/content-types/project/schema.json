@@ -19,11 +19,12 @@
       "type": "string"
     },
     "og_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "keywords": {
       "type": "string"
@@ -39,6 +40,13 @@
     },
     "post": {
       "type": "richtext"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
